@@ -7,7 +7,7 @@ session_start();
 define('DS', DIRECTORY_SEPARATOR);
 
 
-echo __DIR__;
+//echo __DIR__;
 //front template
 defined("TEMPLATE_FRONT") ? null : define ("TEMPLATE_FRONT" , __DIR__ . DS . "templates/front");
 //back template
@@ -24,6 +24,5 @@ defined("DB_NAME") ? null : define ("DB_NAME" , "ecom_db");
 $connection = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 require_once("functions.php");
 
-//echo DB_NAME;
 
 ?>

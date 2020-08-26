@@ -15,33 +15,20 @@
     <title>Shop Homepage - Start Bootstrap Template</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css" >
     <!-- Custom CSS -->
-    <link href="css/shop-homepage.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="css/shop-homepage.css" type="text/css" >
+    <link rel="stylesheet" href="css/styles.css" type="text/css" >
+   
 
 </head>
 
 <body>
-
-  
-
     <!-- Page Content -->
     <div class="container">
-
         <div class="row">
-
         <!-- categories here -->
             <?php include(TEMPLATE_FRONT . DS . "side_nav.php" ); ?>
-
-
             <div class="col-md-9">
                 <div class="row carousel-holder">
                     <div class="col-md-12">
@@ -52,10 +39,6 @@
                     <div class="row">
                         <!-- see functions.php -->
                         <?php get_products(); ?>
-
-                      
-
-
                         <div class="col-sm-4 col-lg-4 col-md-4">
                             <h4><a href="#">Like this template?</a></h4>
                             <p>If you like this template, then check out <a target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">this tutorial</a> on how to build a working review system for your online store!</p>
@@ -68,10 +51,10 @@
  
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.jss"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" ></script>
 
 </body>
 
